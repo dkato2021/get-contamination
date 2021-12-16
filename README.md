@@ -1,3 +1,3 @@
 # get-contamination
-checkmがcontaminationと判定した遺伝子が含まれるcontigを探すスクリプト
+**checkmがcontaminationと判定した遺伝子が含まれるcontigを探すスクリプト**
 ![](./tmp/A.png)
