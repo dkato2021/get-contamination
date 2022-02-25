@@ -46,4 +46,11 @@ $ wget https://data.ace.uq.edu.au/public/gtdb/data/releases/release202/202.0/bac
 $ python edit_features.py -f features.tsv
 ```
 - new_features.csvが出力されます。
+## split_fasta
+**multi-fastaファイルを分割します。**
+
+## Usuge
+```
+$ python split_fasta.py -f multi-fasta.fasta
+```
 
