@@ -38,4 +38,12 @@ $ python3 Accession-number-to-Organism-name.py -in DIR_IN -stats STATS_DIR -ex E
 #GTDBに登録されている全細菌のAccession-number一覧の取得。
 $ wget https://data.ace.uq.edu.au/public/gtdb/data/releases/release202/202.0/bac120_taxonomy_r202.tsv
 ```
+## edit_features.tsv_from_DFAST
+**DFASTが出力するfeatures.tsvファイルのCDS領域の開始点と終了点の表記を下流の解析で扱いやすい表記に変更します**
+
+## Usuge
+```
+$ python edit_features.py -f features.tsv
+```
+- new_features.csvが出力されます。
 
