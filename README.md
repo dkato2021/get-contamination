@@ -53,4 +53,14 @@ $ python edit_features.py -f features.tsv
 ```
 $ python split_fasta.py -f multi-fasta.fasta
 ```
+## get basic information of FASTA
+**fastaファイルの基礎情報を出力するスクリプト**
+## installation
+```
+$ pip install -r requirements.txt #condaでのinstallも可
+```
+## Usage
+```
+$ python basic.py -f fasta_file
+```
 
